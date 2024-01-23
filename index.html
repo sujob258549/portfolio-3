@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css and daisy ui  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .t-color {
+            color: #FF4240;
+
+        }
+
+        .bg-color {
+            background-color: #FF4240;
+        }
+
+        @media only screen and (max-width: 520px) {
+            .fx-buttons{
+                top: -40%;
+            }
+            
+        }
+        @media only screen and (max-width: 480px) {
+            .fx-buttons{
+                top: -30%;
+            }
+            
+        }
+        @media only screen and (max-width: 400px) {
+            
+        }
+    </style>
+</head>
+
+<body class="manrope">
+    <header class="container max-w-[1280px] mx-auto box-border px-5 lg:px-16 sticky top-0  m-0 z-50">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a href="#" class="t-color text-base font-bold hover:bg-sky-200">Home</a></li>
+                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200"> About</a></li>
+                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">About</a></li>
+                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">Pages</a></li>
+                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">Blog</a></li>
+                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">Contact</a></li>
+                    </ul>
+                </div>
+                <h3 class=" text-xl md:text-4xl font-extrabold">Hockey<span class="t-color">’</span>s</h3>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li class=""><a href="#" class="t-color text-base font-bold hover:bg-sky-200">Home</a></li>
+                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200"> About</a></li>
+                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">About</a></li>
+                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">Pages</a></li>
+                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">Blog</a></li>
+                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class="btn bg-color font-bold text-white text-base md:text-xl hover:text-black">Get Ticket</a>
+            </div>
+        </div>
+
+    </header>
+    <main class="container max-w-[1280px] mx-auto box-border px-5 lg:px-16 py-4">
+        <!-- slider-section -->
+        <section class="slider-section mt-5">
+            <div class="carousel w-full">
+
+                <div id="slide1" class="carousel-item relative w-full h-4/5">
+                        <img src="./Images/1.png" alt="">
+
+
+                   
+                        <div class="absolute flex fx-buttons translate-x-[40%] md:-translate-x-[0%] -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle bg-black"><span
+                                class="text-white hover:text-gray-950">❯</span></a>
+                        <a href="#slide2" class="btn btn-circle  bg-black"><span
+                                class="text-white  hover:text-gray-950">❯</span></a>
+                                
+                    </div>
+                           <div class=" w-full md:w-[550px]  p-5 bg-black rounded-xl -bottom-40 absolute md:right-12 md:bottom-12 mt-6 md:mt0">
+                            <h3 class="text-[18px] md:text-2xl font-extrabold text-white">Meet all the heroes from the
+                                field</h3>
+                            <p class=" pt-4 text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing
+                                aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+                        </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" alt="" class="">
+                    <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./Images/1.png" alt="" class="">
+                    <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative">
+                    <img src="./Images/1.png" alt="" class=" lg:h-[550px] w-full">
+                    <div class="absolute flex  transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- counter-section -->
+        <section class="counter-section md:py-24 py-10">
+            <div class=" md:w-[650px] w-full text-center space-y-4 mx-auto px-5">
+                <h2 class="text-2xl md:text-4xl font-extrabold">
+                    Professional Hockeys Club
+                </h2>
+                <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 md:mt-24 gap-8">
+                <div class="text-center space-y-3">
+                    <div class="radial-progress  text-[#FF4240]" style="--value:87; --size:7rem; " role="progressbar"><span class="text-sky-950 text-3xl font-extrabold">87%</span></div>
+                    <h4 class="text-xl font-semibold pt-2">
+                        Prayer Facility
+                    </h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center space-y-3">
+                    <div class="radial-progress  text-[#319466]" style="--value:95; --size:7rem;" role="progressbar"><span class="text-sky-950 text-3xl font-extrabold">95%</span></div>
+                    <h4 class="text-xl font-semibold pt-2">
+                        Prayer Facility
+                    </h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center space-y-3">
+                    <div class="radial-progress  text-[#d4993f]" style="--value:90; --size:7rem;" role="progressbar"><span class="text-sky-950 text-3xl font-extrabold">90%</span></div>
+                    <h4 class="text-xl font-semibold pt-2">
+                        Prayer Facility
+                    </h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="text-center space-y-3">
+                    <div class="radial-progress  text-[#3f76c9]" style="--value:80; --size:7rem;" role="progressbar"><span class="text-sky-950 text-3xl font-extrabold">80%</span></div>
+                    <h4 class="text-xl font-semibold pt-2">
+                        Prayer Facility
+                    </h4>
+                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="container w-[1280px] mx-auto box-border px-8">
+
+    </footer>
+
+</body>
+
+</html>
