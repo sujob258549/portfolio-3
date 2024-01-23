@@ -63,25 +63,25 @@
                         </svg>
                     </div>
                     <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="#" class="t-color text-base font-bold hover:bg-sky-200">Home</a></li>
-                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200"> About</a></li>
-                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">About</a></li>
-                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">Pages</a></li>
-                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">Blog</a></li>
-                        <li><a href=" #" class="text-base font-bold hover:bg-sky-200">Contact</a></li>
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 active:bg-violet-700 rounded-box w-52">
+                        <li><a href="#home" class="t-color text-base font-bold hover:bg-sky-200">Home</a></li>
+                        <li><a href=" #about" class="text-base font-bold  active:bg-blue-800 hover:bg-sky-200"> About</a></li>
+                        <li><a href=" #acordian" class="text-base font-bold hover:bg-sky-200">Review</a></li>
+                        <li><a href=" #grid " class="text-base font-bold active:bg-violet-700 hover:bg-sky-200">Pages</a></li>
+                        <li><a href=" #products" class="text-base font-bold active:bg-violet-700 hover:bg-sky-200">Blog</a></li>
+                        <li><a href=" #contract" class="text-base font-bold active:bg-violet-700 hover:bg-sky-200">Contact</a></li>
                     </ul>
                 </div>
                 <h3 class=" text-xl md:text-4xl font-extrabold">Hockey<span class="t-color">’</span>s</h3>
             </div>
             <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li class=""><a href="#" class="t-color text-base font-bold hover:bg-sky-200">Home</a></li>
-                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200"> About</a></li>
-                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">About</a></li>
-                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">Pages</a></li>
-                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">Blog</a></li>
-                    <li class="ml-4"><a href="#" class="text-base font-bold hover:bg-sky-200">Contact</a></li>
+                <ul class="menu menu-horizontal px-1 gap-3">
+                    <li><a href="#home" class="t-color text-base font-bold hover:bg-sky-200">Home</a></li>
+                    <li><a href=" #about" class="text-base font-bold active:bg-blue-800 hover:bg-sky-200"> About</a></li>
+                    <li><a href=" #acordian" class="text-base font-bold hover:bg-sky-200">Review</a></li>
+                    <li><a href=" #grid " class="text-base font-bold hover:bg-sky-200">Pages</a></li>
+                    <li><a href=" #products" class="text-base font-bold hover:bg-sky-200">Blog</a></li>
+                    <li><a href=" #contract" class="text-base font-bold  hover:bg-sky-200">Contact</a></li>
                 </ul>
             </div>
             <div class="navbar-end">
@@ -99,11 +99,11 @@
     </header>
     <main class="container max-w-[1280px] mx-auto box-border px-5 lg:px-16 py-4">
         <!-- slider-section -->
-        <section class="slider-section mt-5">
+        <section class="slider-section mt-5" id="home">
             <div class="carousel w-full">
 
                 <div id="slide1" class="carousel-item relative w-full h-4/5 flex-col">
-                    <img src="./Images/1.png" alt="" class="w-full h-[300px] md:h-[500px]">
+                    <img src="./Images/1.png" alt="" class="h-[300px] md:h-[500px]">
 
 
 
@@ -138,7 +138,7 @@
     
                         </div>
                         <div
-                            class=" w-full md:w-[550px]  p-5 bg-black rounded-xl -bottom-40 absolute md:right-12 md:-bottom-16 mt-6 md:mt0">
+                            class=" w-full md:w-[550px]  p-5 bg-black rounded-xl -bottom-52 absolute md:right-12 md:-bottom-16 mt-10 md:mt-0">
                             <h3 class="text-[18px] md:text-2xl font-extrabold text-white">Meet all the heroes from the
                                 field</h3>
                             <p class=" pt-4 text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing
@@ -162,7 +162,7 @@
     
                         </div>
                         <div
-                            class=" w-full md:w-[550px]  p-5 bg-black rounded-xl -bottom-40 absolute md:right-12 md:-bottom-16 mt-6 md:mt-0">
+                            class=" w-full md:w-[550px]  p-5 bg-black rounded-xl -bottom-52 absolute md:right-12 md:-bottom-16 mt-6 md:mt-0">
                             <h3 class="text-[18px] md:text-2xl font-extrabold text-white">Meet all the heroes from the
                                 field</h3>
                             <p class=" pt-4 text-base text-white">Dit amet consectetur. Condimentum dignissim adipiscing
@@ -175,7 +175,7 @@
         </section>
 
         <!-- counter-section -->
-        <section class="counter-section md:py-24 py-10">
+        <section class="counter-section md:py-24 py-10" id="about">
             <div class=" md:w-[650px] w-full text-center space-y-4 mx-auto px-5">
                 <h2 class="text-2xl md:text-4xl font-extrabold">
                     Professional Hockeys Club
@@ -226,7 +226,7 @@
         </section>
 
         <!-- program-section -->
-        <section class="program-section md:py-24 py-10">
+        <section class="program-section md:py-24 py-2" id="grid">
             <div class=" md:w-[650px] w-full text-center space-y-4 mx-auto px-5">
                 <h2 class="text-2xl md:text-4xl font-extrabold">
                     Professional Hockeys Club
@@ -288,7 +288,7 @@
         </section>
 
         <!-- products-section -->
-        <section class="products-section md:py-24 py-10">
+        <section class="products-section md:py-24 py-10" id="products">
             <div class=" md:w-[650px] w-full text-center space-y-4 mx-auto px-5">
                 <h2 class="text-2xl md:text-4xl font-extrabold">
                     Professional Hockeys Club
@@ -935,7 +935,7 @@
         </section>
 
         <!-- acordian -->
-        <section class="program-section md:py-24 py-10">
+        <section class="program-section md:py-24 py-10" id="acordian">
             <div class=" md:w-[650px] w-full text-center space-y-4 mx-auto px-5">
                 <h2 class="text-2xl md:text-4xl font-extrabold">
                     Clients Question
@@ -1015,7 +1015,7 @@
         </section>
 
         <!-- cotract -->
-        <section class="contract-section md:py-24 py-10">
+        <section class="contract-section md:py-24 py-10" id="contract">
             <div class=" md:w-[650px] w-full text-center space-y-4 mx-auto px-5">
                 <h2 class="text-2xl md:text-4xl font-extrabold">
                     Get In Touch
@@ -1074,18 +1074,18 @@
                             </div>
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text font-bold text-xl">Subject</span>
+                                    <span class="label-text font-bold text-xl">Your Email</span>
                                 </label>
-                                <input type="email" placeholder="Enter your subject" class="input input-bordered"
+                                <input type="email" placeholder="Enter your email" class="input input-bordered"
                                     required />
                             </div>
                         </div>
                         <div class="grid gap-5 grid-cols-1 md:grid-cols-2">
                             <div class="form-control">
                                 <label class="label">
-                                    <span class="label-text font-bold text-xl">Your Name</span>
+                                    <span class="label-text font-bold text-xl">Subject</span>
                                 </label>
-                                <input type="text" placeholder="Enter your full name" class="input input-bordered"
+                                <input type="text" placeholder="Your Subject" class="input input-bordered"
                                     required />
 
                             </div>
@@ -1093,7 +1093,7 @@
                                 <label class="label">
                                     <span class="label-text font-bold text-xl">Phone Number</span>
                                 </label>
-                                <input type="email" placeholder="Enter your phone number" class="input input-bordered"
+                                <input type="number" placeholder="Enter your phone number" class="input input-bordered"
                                     required />
                             </div>
                         </div>
@@ -1108,7 +1108,7 @@
 
 
                         <div class="form-control mt-6">
-                            <button class="btn btn-primary">Login</button>
+                            <button class="btn btn-primary bg-color hover:bg-amber-200 hover:text-black text-xl">Login</button>
                         </div>
                     </form>
                 </div>
